@@ -93,6 +93,68 @@ class Set1{
         }
         */
 
+       
+       // Check an alphabet is vowel or consonant
+       /*
+       char ch = 'e';
+       if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+        System.out.println(ch+" is vowel.");
+       }
+       else if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='u'){
+        System.out.println(ch+" is vowel.");
+       }
+       else{
+        System.out.println(ch+" is consonant.");
+       }
+       */
+
+
+      // Find the largest among three numbers
+      /*
+      int n1 = 45;
+      int n2 = 96;
+      int n3 = 48;
+
+      if(n1>n2 && n1>n3){
+        System.out.println(n1+" is largest");
+      }
+      else if(n2>n1 && n2>n3){
+        System.out.println(n2+" is largest");
+      }
+      else if(n3>n1 && n3>n2){
+        System.out.println(n3+" is largest");
+      }
+      else{
+        System.out.println("All are equal");
+      }
+      */
+
+
+     // Find all roots of quadratic equation
+     /*
+     int a=2;
+     int b=-1;
+     int c=3;          // 2x^2 - x + 3 = 0
+
+     int D = b*b-(4*a*c);
+
+     if(D>=0){
+        double root1 = (-b+Math.sqrt(D))/(2*a);
+        double root2 = (-b-Math.sqrt(D))/(2*a);
+
+        System.out.println("Root1 : "+root1);
+        System.out.println("Root2 : "+root2);
+     }
+     else{
+        double realP = -b/(double)(2*a);
+        double imagP = Math.sqrt(-D)/(2*a);
+
+        System.out.printf("Root1 : %.2f + %.2fi ",realP,imagP);
+        System.out.println();
+        System.out.printf("Root2 : %.2f - %.2fi ",realP,imagP);
+     }
+     */
+
         
 
 
