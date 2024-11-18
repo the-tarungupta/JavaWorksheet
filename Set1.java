@@ -155,6 +155,54 @@ class Set1{
      }
      */
 
+
+
+    // Check for leap year
+    /*
+    int year = 1900;
+    if(year%4==0){
+      if(year%100==0 && year%400==0){
+        System.out.println(year+" is leap year");
+      }
+      else if(year%100==0 && year%400!=0){
+        System.out.println(year+" is not leap year");
+      }
+      else if(year%100!=0){
+        System.out.println(year+" is leap year");
+      }
+    }
+    else{
+      System.out.println(year+" is not leap year");
+    }
+    */
+
+
+   // Check whether a number is +ve or -ve
+   /*
+   int n = -0;
+   if(n>0){
+    System.out.println(n+" is positive");
+   }
+   else if(n<0){
+    System.out.println(n+" is negative");
+   }
+   else{
+    System.out.println("zero");
+   }
+   */
+
+
+  // Check whether a character is alphabet or not
+  /*
+  char ch = 'd';
+  if(ch>='a' && ch<='z' || ch>='A' && ch<='Z'){
+    System.out.println(ch+" is alphabet");
+  }
+  else{
+    System.out.println(ch+" is not alphabet");
+  }
+  */
+
         
 
 
