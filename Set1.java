@@ -203,8 +203,38 @@ class Set1{
   }
   */
 
-        
 
 
+
+  // Sum of Natural Numbers
+  /*
+  int n = 10;
+  int sum=0;
+  for(int i=1; i<=n; i++){
+    sum += i;
+  }
+  System.out.println("Sum : "+sum);      
+  */
+
+
+  // Factorial of Number
+  /*
+  int n = 12;
+  int fact = 1;
+  for(int i=n; i>0; i--){
+    fact *= i;
+  }
+  System.out.println("Factorial : "+fact);
+  */
+
+
+
+  // Generate Multiplication Table
+  /*
+  int n = 7;
+  for(int i=1; i<=10; i++){
+    System.out.println(n+" X "+i+" = "+n*i);
+  }
+  */
     }
 }
