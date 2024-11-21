@@ -55,5 +55,81 @@ public class Set2{
      }
     */
 
+
+   // Count no. of digits in integer
+   /*
+   int n = 72304;
+   int digit = 0;
+   while(n!=0){
+    n/=10;
+    digit++;
+   }
+   System.out.println("No. of digits : "+digit);
+   */
+
+
+  // Reverse a Number
+  /*
+  int n = 23401;
+  int rev = 0;
+  while(n!=0){
+    int rem = n%10;
+    rev = rev*10+rem;
+    n/=10;
+  }
+  System.out.println("Reverse number : "+rev);
+  */
+
+
+
+ // Power of Number
+ /*
+ int base = 4;
+ int exp = 3;
+ int pow=1;
+ for(int i=1; i<=exp; i++){
+    pow*=base;
+ }
+ System.out.println("Power : "+pow);
+ */
+
+
+
+// Check Palindrome
+// For number 
+/*
+int n = 727;
+int var = n;
+int rev = 0;
+while(n!=0){
+    int rem = n%10;
+    rev = rev*10+rem;
+    n/=10;
+}
+if(rev==var){
+    System.out.println("Yes Palindrome");
+}
+else{
+    System.out.println("Not Palindrome");
+}
+*/
+
+// For String
+/*
+String str = "abacdcaba";
+String rev = "";
+for(int i=str.length()-1; i>=0; i--){
+    rev += str.charAt(i);
+}
+if(str.equals(rev)){
+    System.out.println("Yes Palindrome");
+}
+else{
+    System.out.println("No Palindrome");
+}
+*/
+
+
+
     }
 }
