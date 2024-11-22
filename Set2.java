@@ -130,6 +130,113 @@ else{
 */
 
 
+// Check whether number is prime or not
+/*
+int n = 73;
+boolean isPrime = true;
+for(int i=2; i<n; i++){
+    if(n%i==0){
+        isPrime = false;
+        break;
+    }
+}
+if(isPrime){
+    System.out.println(n+" is prime number");
+}
+else{
+    System.out.println(n+" is not prime number");
+}
+*/
+
+
+
+// Display Prime numbers b/w intervals
+/*
+int start = 1;
+int end = 100;
+boolean isPrime = true;
+
+for(int i=start; i<=end; i++){
+    for(int j=2; j<i; j++){
+        if(i%j==0){
+            isPrime = false;
+            break;
+        }
+    }
+    if(isPrime){
+        System.out.print(i+" ");
+    }
+    else{
+        isPrime = true;
+    }
+}
+*/
+
+
+
+// Check Armstrong number
+/*
+int n = 1;
+int var = n;
+int digits = 0;
+while(n!=0){
+    n/=10;
+    digits++;
+}
+
+n = var;
+double ans = 0;
+while(n!=0){
+    int rem = n%10;
+    ans = ans + Math.pow(rem , digits);
+    n/=10;
+}
+
+if(ans == var){
+    System.out.println(var+" is armstrong number.");
+}
+else{
+    System.out.println(var+" is not armstrong number.");
+}
+*/
+
+
+
+// Display Armstrong Numbers b/w intervals
+/*
+int start = 1;
+int end = 10000;
+
+for(int i=start; i<=end; i++){
+    int var = i;
+    int digits = 0;
+
+    while(i!=0){
+        i/=10;
+        digits++;
+    }
+
+    i = var;
+
+    double ans = 0;
+
+    while(i!=0){
+        int rem = i%10;
+        ans = ans + Math.pow(rem , digits);
+        i/=10;
+    }
+
+    i = var;
+
+    if(var == ans){
+        System.out.print(var+" ");
+    }
+}
+*/
+
+
+
+
 
     }
 }
