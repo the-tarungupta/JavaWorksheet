@@ -1,4 +1,61 @@
 public class Set2{
+
+    // function showPrime ------
+    public static void showPrime(int s , int e){
+        boolean bool = true;
+        for(int i=s; i<=e; i++){
+            if(i>1){
+                for(int j=2; j<i; j++){
+                    if(i%j==0){
+                        bool = false;
+                        break;
+                    }
+                }
+                if(bool){
+                    System.out.print(i+" ");
+                }
+                else{
+                    bool = true;
+                }
+            }
+        }
+
+    }
+
+
+    // function showArmstrong---------------
+    public static void showArmstrong(int s , int e){
+        int var= 0;
+        for(int i=s; i<=e; i++){
+
+            var=i;
+            int count=0;
+            while(i!=0){
+                i/=10;
+                count++;
+            }
+
+
+            i=var;
+
+            double ans = 0;
+            while(i!=0){
+                int rem = i%10;
+                ans = ans + Math.pow(rem , count);
+                i/=10;
+            }
+
+            i=var;
+
+            if(i==ans){
+                System.out.print(i+" ");
+            }
+
+
+        }
+
+    }
+    
     public static void main(String[] args){
 
         // Display Fibonacci Series 
@@ -236,7 +293,27 @@ for(int i=start; i<=end; i++){
 
 
 
+// Display Prime Numbers b/w intervals using functions
+/*
+int s=1;
+int e=100;
+showPrime(s,e);
+*/
+
+
+
+// Display Armstrong Numbers b/w intervals using function
+/*
+int s=1;
+int e=1000;
+showArmstrong(s,e);
+*/
+
+
+
 
 
     }
+
+
 }
