@@ -1,7 +1,36 @@
 import java.util.*;
 
 class Set3{
+
+    // Recursive function - sum---------------
+    /*
+    public static int fact(int n){
+        if(n==0 || n==1){
+            return 1;
+        }
+        else{
+            return n*fact(n-1);
+        }
+    }
+    */
+
+    // Recursive function - sum------------
+    /*
+    public static int sum(int n){
+
+        if(n==1){
+            return 1;
+        }
+        else{
+            return n+sum(n-1);
+        }
+
+    }
+    */
+
+
     // checkPrime function-----------
+    /*
     public static boolean checkPrime(int i){
         boolean bool = true;
 
@@ -14,6 +43,9 @@ class Set3{
 
         return bool;
     }
+    */
+
+
     public static void main(String[] args){
 
 
@@ -81,6 +113,24 @@ class Set3{
       }
 
       */
+
+
+     // Sum of Natural Numbers Using Recursion
+
+    /*
+     int n=6;
+     int res = sum(n);
+     System.out.println(res);
+     */
+
+
+    // Factorial of a number using Recursion
+    /*
+    int n=7;
+    int res = fact(n);
+    System.out.println(res);
+    */
+
 
     }
 }
