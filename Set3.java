@@ -2,7 +2,23 @@ import java.util.*;
 
 class Set3{
 
-    // Recursive function - sum---------------
+    // Recursive function - gcd --------------
+    /*
+    public static int gcd(int n1 , int n2){
+        int min = Math.min(n1,n2);
+        int max = Math.max(n1,n2);
+        if(max%min==0){
+            return min;
+        }
+        else{
+            return gcd(max%min , min);
+        }   
+
+    }
+    */
+   
+
+    // Recursive function - fact---------------
     /*
     public static int fact(int n){
         if(n==0 || n==1){
@@ -130,6 +146,17 @@ class Set3{
     int res = fact(n);
     System.out.println(res);
     */
+
+
+   // GCD using recursion
+   /*
+   int n1 = 24;
+   int n2 = 9;
+   int res = gcd(n1,n2);
+   System.out.println(res);
+   */
+
+
 
 
     }
