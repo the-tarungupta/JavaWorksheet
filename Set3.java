@@ -158,6 +158,47 @@ class Set3{
 
 
 
+  // Decimal to Binary Conversion
+  /*
+  int n = 5;
+  int var = n;
+  int bin = 0;
+  int i=1;
+
+  while(n!=0){
+    int rem = n%2;
+    bin = i*rem + bin;
+    n/=2;
+    i*=10;
+  }
+
+  System.out.println(var+" in binary represented as : "+bin);
+  */
+
+
+
+ // Binary to Decimal Conversion
+
+/*
+ int n = 110;
+ int var = n;
+ int index = 0;
+ int dec = 0;
+
+ while(n!=0){
+    int rem=n%10;
+    if(rem==1){
+        dec = dec + (int)(Math.pow(2,index));
+    }
+    index++;
+    n/=10;
+ }
+
+ System.out.println(var+" in decimal representation : "+dec);
+ */
+
+
+
 
     }
 }
