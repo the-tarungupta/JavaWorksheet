@@ -2,6 +2,20 @@ import java.util.*;
 
 class Set3{
 
+    // Recursive function - reverse --------------
+    /*
+    public static String reverse(String str){
+        if(str.length()==0){
+            return str;
+        }
+        else{
+            return str.charAt(str.length()-1)+reverse(str.substring(0 , str.length()-1));
+        }
+    }
+    */
+
+   
+
     // Recursive function - gcd --------------
     /*
     public static int gcd(int n1 , int n2){
@@ -197,6 +211,13 @@ class Set3{
  System.out.println(var+" in decimal representation : "+dec);
  */
 
+
+
+    // Reverse sentence using recursion
+
+    String sent = "Java Basics";
+    String out = reverse(sent);
+    System.out.println(out);
 
 
 
