@@ -2,6 +2,25 @@ import java.util.*;
 
 class Set3{
 
+    // Recursive function - pow ----------------
+    /*
+    public static int pow(int base , int exp){
+
+        if(exp==0){
+            return 1;
+        }
+        else if (base==1){
+            return base;
+        }
+        else{
+            return base * pow(base , exp-1);
+        }
+
+    }
+    */
+
+
+
     // Recursive function - reverse --------------
     /*
     public static String reverse(String str){
@@ -214,10 +233,21 @@ class Set3{
 
 
     // Reverse sentence using recursion
-
+    /*
     String sent = "Java Basics";
     String out = reverse(sent);
     System.out.println(out);
+    */
+
+
+
+   // Power using Recursion
+/*
+   int base = 3;
+   int exp = 4;
+   int res = pow(base , exp);
+   System.out.println(res);
+   */
 
 
 
