@@ -445,6 +445,55 @@ class StarPatterns{
     //     }
     //     System.out.println();
     //    }
+
+
+        // Pattern 17
+        /*
+                ****
+                ****
+                ****
+                ****
+        */
+
+
+    //    for(int i=1; i<=n; i++){
+    //     for(int j=1; j<=n; j++){
+    //         System.out.print("*");
+    //     }
+    //     System.out.println();
+    //    }
+
+
+
+        // Pattern 18
+        /*
+                ****
+                *  *
+                *  *
+                ****
+        */
+
+
+    //    for(int i=1; i<=n; i++){
+    //     for(int j=1; j<=n; j++){
+    //         if(i==2 || i==3){
+    //             if(j==2 || j==3){
+    //                 System.out.print(" ");
+    //             }
+    //             else{
+    //                 System.out.print("*");
+    //             }
+    //         }
+    //         else{
+    //             System.out.print("*");
+    //         }
+    //     }
+    //     System.out.println();
+    //    }
+
+
+
+        
                 
 
 
